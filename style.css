@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    background-color: blueviolet;
+    width: 960px;
+    margin: auto;
+}
+.header{
+    background-color: #74d3e8;
+    text-align: center;
+    padding: 10px;
+}
+main{
+    width: 960px;
+    /* background-color: rgb(16, 35, 212); */
+    display: flex;
+    text-align: center;
+    text-transform: capitalize;
+}
+main .sidebar{
+    width: 360px;
+    height: 400px;
+    /* background-color: #3f1583; */
+    
+}
+main .sidebar .Hero{
+    width: 360px;
+    height: 180px;
+    background-color: #d4cbe2;
+}
+main .sidebar .hero_2{
+    width: 360px;
+    height: 220px;
+    background-color: #a7be6d;
+}
+main .details{
+    width: 600px;
+    height: 400px;
+    background-color: #74d3e8;
+}
+main .details .main_content{
+    width: 600px;
+    height: 300px;
+    background-color: #f0c354;
+}
+main .details .extra_content{
+    width: 600px;
+    height: 100px;
+    background-color: #898989;
+}
+section{
+    width: 960px;
+    height: 150px;
+    display: flex;
+    /* background-color: #898989; */
+    text-align: center;
+    text-transform: capitalize;
+}
+section .image{
+    width: 600px;
+    height: 150px;
+    background-color: #58b058;
+}
+section .post{
+    width: 360px;
+    height: 150px;
+    background-color: #edd0de;
+}
+footer{
+    background-color: #f4a540;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
